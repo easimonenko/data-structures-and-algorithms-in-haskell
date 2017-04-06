@@ -1,0 +1,20 @@
+name:                data-structures-and-algorithms-in-haskell
+version:             0.1.0.0
+synopsis:            Data structures and algorithms in Haskell.
+description:         Data structures and algorithms in Haskell.
+homepage:            https://github.com/easimonenko/data-structures-and-algorithms-in-haskell#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Evgeniy A. Simonenko
+maintainer:          easimonenko@mail.ru
+copyright:           2017 Evgeniy A. Simonenko
+category:            Data Structures, Algorithms
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable exact-string-comparison-naive
+  hs-source-dirs:      src/exact-string-comparison-naive
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
