@@ -1,0 +1,26 @@
+name:                haskell-examples
+version:             0.1.0.0
+synopsis:            Various code examples on Haskell.
+description:         Various code examples on Haskell.
+homepage:            https://github.com/easimonenko/haskell-examples
+license:             CC0
+license-file:        LICENSE
+author:              Evgeny Simonenko
+maintainer:          easimonenko@mail.ru
+copyright:           2017-2018, Evgeny Simonenko
+category:            Examples, Data Structures, Algorithms
+build-type:          Simple
+cabal-version:       >=2.0
+extra-source-files:  README.md
+
+executable exact-string-comparison-naive
+  hs-source-dirs:      src/exact-string-comparison-naive
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+
+executable z-blocks-counting
+  hs-source-dirs:      src/z-blocks-counting
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
